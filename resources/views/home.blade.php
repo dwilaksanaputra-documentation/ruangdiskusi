@@ -14,7 +14,7 @@
         <nav class="navbar navbar-dark navbar-expand-lg bg-primary">
             <div class="container flex justify-content-between">
               <a class="navbar-link" href="{{ route('home') }}">
-                <img class="h-65px" src="{{ url('assets/images/RD-logo2.png') }}" alt="Ruang Diskusi">
+                <img class="h-32px" src="{{ url('assets/images/logo-RD.png') }}" alt="Ruang Diskusi">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -49,6 +49,22 @@
               </div>
             </div>
           </nav>
+
+          <section class="container hero">
+            <div class="row align-items-center h-100">
+              <div class="col-12 col-lg-6">
+                <h1>Diskusi Santuy<br /></h1>
+                <h3>Berbagi Informasi dan Pengetahuan</h3>
+                <p class="mb-4">Diskusi apa saja, yang penting sopan.</p>
+                <a href="#" class="btn btn-primary me-2 mb-2 mb-lg-0">Daftar</a>
+                <a href="#" class="btn btn-secondary me-2 mb-2 mb-lg-0">Mulai Diskusi</a>
+              </div>
+
+              <div class="col-12 col-lg-6 h-315px order-first order-lg-last mb-3 mb-lg-0">
+                <img class="hero-image float-lg-end" src="{{ url('assets/images/gambar-hero.png') }}" alt="">
+              </div>
+            </div>
+          </section>
 
           <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     </body>
